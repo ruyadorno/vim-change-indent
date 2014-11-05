@@ -1,0 +1,24 @@
+*change-indent.txt* a simple command to change indent values on a file
+*change-indent*
+
+==============================================================================
+USAGE
+
+The change indent command is available once the plugin is correctly installed:
+
+:ChangeIndent
+
+Will try to convert your file from 4-spaced indentation to whatever value is
+defined on a local .editorconfig file. If no editor config file was found it
+will default to the current vim &tabstop value.
+
+:ChangeIndent <value>
+
+Providing an argument will define which value to convert the indentation from.
+
+MORE INFO
+
+Visit the official Github repo:
+
+https://github.com/ruyadorno/vim-change-indent.git
+
