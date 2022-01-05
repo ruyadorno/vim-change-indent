@@ -1,5 +1,7 @@
 # vim-change-indent
 
+![Project unmaintained](https://img.shields.io/badge/project-unmaintained-red.svg)
+
 Vim plugin to convert the indent sizes in a file.
 
 ## About
